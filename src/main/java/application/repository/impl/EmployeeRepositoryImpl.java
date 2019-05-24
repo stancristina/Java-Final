@@ -17,14 +17,14 @@ public class EmployeeRepositoryImpl implements CRUDCustomRepository<Employee> {
     public  Employee save(Employee entity) {
         Connection connection = null;
 
-        String insertTableEmployee = "INSERT INTO Employee (first_name, last_name, cnp, id_company) VALUES(?, ?, ?, ?)";
+        String insertTableEmployee = "INSERT INTO Employee (first_name, last_name, cnp, created_by) VALUES(?, ?, ?, ?)";
         connection = (Connection) JDBCUtils.getDBConnection();
         try {
             PreparedStatement ps = connection.prepareStatement(insertTableEmployee);
             ps.setString(1, entity.getFirstName());
             ps.setString(2, entity.getLastName());
-            ps.setString(3, String.valueOf(entity.getCnp()));
-            ps.setString(4, String.valueOf(entity.getIdCompany()));
+            ps.setLong(3, entity.getCnp());
+            ps.setInt(4, entity.getCreatedBy());
             ps.executeUpdate();
 
             System.out.println("Record is inserted into Employee table");
@@ -60,7 +60,7 @@ public class EmployeeRepositoryImpl implements CRUDCustomRepository<Employee> {
                     employee.setFirstName(resultSet.getString("first_name"));
                     employee.setLastName(resultSet.getString("last_name"));
                     employee.setCnp(resultSet.getLong("cnp"));
-                    employee.setIdCompany(resultSet.getInt("id_company"));
+                    employee.setCreatedBy(resultSet.getInt("created_by"));
                     employeeList.add(employee);
                 }
 
@@ -87,7 +87,7 @@ public class EmployeeRepositoryImpl implements CRUDCustomRepository<Employee> {
     public Employee update(Employee entity) {
         Connection connection = null;
 
-        String updateEmployeeSql = "UPDATE EMPLOYEE SET first_name = ?, last_name = ?, cnp = ?, id_company = ? WHERE id = ?";
+        String updateEmployeeSql = "UPDATE EMPLOYEE SET first_name = ?, last_name = ?, cnp = ? WHERE id = ?";
         connection = JDBCUtils.getDBConnection();
 
         try {
@@ -95,8 +95,7 @@ public class EmployeeRepositoryImpl implements CRUDCustomRepository<Employee> {
             ps.setString(1, entity.getFirstName());
             ps.setString(2, entity.getLastName());
             ps.setString(3, String.valueOf(entity.getCnp()));
-            ps.setString(4, String.valueOf(entity.getIdCompany()));
-            ps.setString(5, String.valueOf(entity.getId()));
+            ps.setString(4, String.valueOf(entity.getId()));
             ps.executeUpdate();
 
             System.out.println("Record is updated in Employee table ");
@@ -123,7 +122,7 @@ public class EmployeeRepositoryImpl implements CRUDCustomRepository<Employee> {
 
         try {
             PreparedStatement ps = connection.prepareStatement(deleteEmployeeSql);
-            ps.setString(1, String.valueOf(12));
+            ps.setInt(1, id);
             ps.executeUpdate();
 
             System.out.println("Record is deleted from Employee table");

@@ -5,6 +5,8 @@ import java.util.Date;
 
 public class Holiday {
 
+    private int id;
+
     private LocalDate startDate;
 
     private LocalDate endDate;
@@ -14,10 +16,12 @@ public class Holiday {
     public Holiday() {
     }
 
-    public Holiday(Date start_date, Date end_date, int idEmployee) {
-        this.startDate = startDate;
-        this.endDate = endDate;
-        this.idEmployee = idEmployee;
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public LocalDate getStartDate() {

@@ -10,28 +10,17 @@ public class Employee {
 
     private Long cnp;
 
-    private int idCompany;
+    private int createdBy;
 
     public Employee() {
     }
 
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", cnp=" + cnp +
-                ", idCompany=" + idCompany +
-                '}';
+    public int getCreatedBy() {
+        return createdBy;
     }
 
-    public Employee(int id, String firstName, String lastName, Long cnp, int idCompany) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.cnp = cnp;
-        this.idCompany = idCompany;
+    public void setCreatedBy(int createdBy) {
+        this.createdBy = createdBy;
     }
 
     public int getId() {
@@ -64,13 +53,5 @@ public class Employee {
 
     public void setCnp(Long cnp) {
         this.cnp = cnp;
-    }
-
-    public int getIdCompany() {
-        return idCompany;
-    }
-
-    public void setIdCompany(int idCompany) {
-        this.idCompany = idCompany;
     }
 }

@@ -1,4 +1,3 @@
-(function(){
-    console.log("Hello World!");
-    console.log("Ypur age is" + );
-})();
+helloWorld = function () {
+    console.log("Hello world")
+}

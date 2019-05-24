@@ -20,13 +20,13 @@ public class UserRepositoryImpl implements CRUDCustomRepository<User> {
     public User save(User entity) {
         Connection connection = null;
 
-        String insertUserTable = "INSERT INTO User (username, password, id_company) VALUES(?, ?, ? )";
+        String insertUserTable = "INSERT INTO User (username, password, company) VALUES(?, ?, ? )";
         connection = (Connection) JDBCUtils.getDBConnection();
         try {
             PreparedStatement ps = connection.prepareStatement(insertUserTable);
             ps.setString(1, entity.getUsername());
             ps.setString(2, entity.getPassword());
-            ps.setInt(3, entity.getIdCompany());
+            ps.setString(3, entity.getCompany());
             ps.executeUpdate();
 
             System.out.println("Record is inserted into User table");
@@ -58,9 +58,10 @@ public class UserRepositoryImpl implements CRUDCustomRepository<User> {
             ResultSet resultSet = ps.executeQuery();
             while(resultSet.next()) {
                 User user = new User();
+                user.setId(resultSet.getInt("id"));
                 user.setUsername(resultSet.getString("username"));
                 user.setPassword(resultSet.getString("password"));
-                user.setIdCompany(resultSet.getInt("id_company"));
+                user.setCompany(resultSet.getString("company"));
                 userList.add(user);
             }
 
@@ -87,14 +88,15 @@ public class UserRepositoryImpl implements CRUDCustomRepository<User> {
     public User update(User entity) {
         Connection connection = null;
 
-        String updateUserSql = "UPDATE User SET username = ?, password = ? WHERE idCompany = ?";
+        String updateUserSql = "UPDATE User SET username = ?, password = ?, company = ? WHERE id = ?";
         connection = JDBCUtils.getDBConnection();
 
         try {
             PreparedStatement ps = connection.prepareStatement(updateUserSql);
             ps.setString(1, entity.getUsername());
             ps.setString(2, entity.getPassword());
-            ps.setInt(3, (entity.getIdCompany()));
+            ps.setString(3, (entity.getCompany()));
+            ps.setInt(4, entity.getId());
             ps.executeUpdate();
 
             System.out.println("Record is updated in User table ");
@@ -121,7 +123,7 @@ public class UserRepositoryImpl implements CRUDCustomRepository<User> {
 
         try {
             PreparedStatement ps = connection.prepareStatement(deleteUserSql);
-            ps.setInt(1, 1);
+            ps.setInt(1, id);
             ps.executeUpdate();
 
             System.out.println("Record is deleted from User table");
@@ -136,6 +138,76 @@ public class UserRepositoryImpl implements CRUDCustomRepository<User> {
                 }
             }
         }
+
+    }
+
+    public List<User> findByUsername(String username) {
+        List<User> userList = new ArrayList<>();
+        Connection connection = null;
+
+        String selectUserSql = "SELECT * FROM User WHERE username = ?";
+        connection = JDBCUtils.getDBConnection();
+
+        try {
+            PreparedStatement ps = connection.prepareStatement(selectUserSql);
+            ps.setString(1, username);
+            ResultSet resultSet = ps.executeQuery();
+            while(resultSet.next()) {
+                User user = new User();
+                user.setId(resultSet.getInt("id"));
+                user.setUsername(resultSet.getString("username"));
+                user.setPassword(resultSet.getString("password"));
+                user.setCompany(resultSet.getString("company"));
+                userList.add(user);
+            }
+
+        } catch (SQLException e1) {
+            e1.printStackTrace();
+        } finally {
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return userList;
+
+    }
+
+    public List<User> findByCompany(String company) {
+        List<User> userList = new ArrayList<>();
+        Connection connection = null;
+
+        String selectUserSql = "SELECT * FROM User WHERE company = ?";
+        connection = JDBCUtils.getDBConnection();
+
+        try {
+            PreparedStatement ps = connection.prepareStatement(selectUserSql);
+            ps.setString(1, company);
+            ResultSet resultSet = ps.executeQuery();
+            while(resultSet.next()) {
+                User user = new User();
+                user.setId(resultSet.getInt("id"));
+                user.setUsername(resultSet.getString("username"));
+                user.setPassword(resultSet.getString("password"));
+                user.setCompany(resultSet.getString("company"));
+                userList.add(user);
+            }
+
+        } catch (SQLException e1) {
+            e1.printStackTrace();
+        } finally {
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return userList;
 
     }
 }

@@ -7,7 +7,7 @@
 </head>
 <body>
 <h2 class="hello-title">Hello, ${name}!</h2>
-<h4>Your age is ${age} </h4>
+<h4>Alexandru, your age is ${age} </h4>
 <script src="/js/main.js"></script>
 </body>
 </html>

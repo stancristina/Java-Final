@@ -2,19 +2,23 @@ package application.model;
 
 public class User {
 
+    private int id;
+
     private String username;
 
     private String password;
 
-    private int idCompany;
+    private String company;
 
     public User() {
     }
 
-    public User(String username, String password, int idCompany) {
-        this.username = username;
-        this.password = password;
-        this.idCompany = idCompany;
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getUsername() {
@@ -33,12 +37,12 @@ public class User {
         this.password = password;
     }
 
-    public int getIdCompany() {
-        return idCompany;
+    public String getCompany() {
+        return company;
     }
 
-    public void setIdCompany(int idCompany) {
-        this.idCompany = idCompany;
+    public void setCompany(String company) {
+        this.company = company;
     }
 
     @Override
@@ -46,7 +50,7 @@ public class User {
         return "User{" +
                 "username='" + username + '\'' +
                 ", password='" + password + '\'' +
-                ", idCompany=" + idCompany +
+                ", company=" + company +
                 '}';
     }
 }

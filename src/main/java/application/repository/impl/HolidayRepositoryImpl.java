@@ -52,6 +52,7 @@ public class HolidayRepositoryImpl implements CRUDCustomRepository<Holiday> {
             ResultSet resultSet = ps.executeQuery();
             while(resultSet.next()) {
                 Holiday holiday = new Holiday();
+                holiday.setId(resultSet.getInt("id"));
                 holiday.setStartDate(resultSet.getDate("start_date").toLocalDate());
                 holiday.setEndDate(resultSet.getDate("end_date").toLocalDate());
                 holiday.setIdEmployee((resultSet.getInt("id_employee")));
@@ -81,14 +82,15 @@ public class HolidayRepositoryImpl implements CRUDCustomRepository<Holiday> {
     public Holiday update(Holiday entity) {
         Connection connection = null;
 
-        String updateHolidaySql = "UPDATE Holiday SET start_date = ?, end_date = ? WHERE id_employee = ?";
+        String updateHolidaySql = "UPDATE Holiday SET start_date = ?, end_date = ?, id_employee = ? WHERE id = ?";
         connection = JDBCUtils.getDBConnection();
 
         try {
             PreparedStatement ps = connection.prepareStatement(updateHolidaySql);
             ps.setDate(1, Date.valueOf(entity.getStartDate()));
             ps.setDate(2, Date.valueOf(entity.getEndDate()));
-            ps.setInt(3, Integer.parseInt(String.valueOf(entity.getIdEmployee())));
+            ps.setInt(3, entity.getIdEmployee());
+            ps.setInt(4, entity.getId());
             ps.executeUpdate();
 
             System.out.println("Record is updated in Holiday table ");
@@ -110,12 +112,12 @@ public class HolidayRepositoryImpl implements CRUDCustomRepository<Holiday> {
     public void delete(Integer id) {
         Connection connection = null;
 
-        String deleteHolidaySql = "DELETE FROM HOLIDAY WHERE idEmployee =?";
+        String deleteHolidaySql = "DELETE FROM HOLIDAY WHERE id = ?";
         connection = JDBCUtils.getDBConnection();
 
         try {
             PreparedStatement ps = connection.prepareStatement(deleteHolidaySql);
-            ps.setString(1, String.valueOf(12));
+            ps.setInt(1, id);
             ps.executeUpdate();
 
             System.out.println("Record is deleted from Holiday table");
