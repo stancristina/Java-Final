@@ -135,4 +135,39 @@ public class HolidayRepositoryImpl implements CRUDCustomRepository<Holiday> {
             }
         }
     }
+
+    public List<Holiday> findByDate(Long givenDate, int createdBy) {
+        List<Holiday> holidayList = new ArrayList<>();
+        Connection connection = null;
+
+        String selectHolidaySql = "SELECT * FROM Holiday WHERE start_date = ? AND created_by = ?";
+        connection = JDBCUtils.getDBConnection();
+
+        try {
+            PreparedStatement ps = connection.prepareStatement(selectHolidaySql);
+            ps.setLong(1,givenDate);
+            ps.setInt(2, createdBy);
+            ResultSet resultSet = ps.executeQuery();
+            while(resultSet.next()) {
+                Holiday holiday = new Holiday();
+                holiday.setId(resultSet.getInt("id"));
+                holiday.setStartDate(resultSet.getDate("start_date").toLocalDate());
+                holiday.setEndDate(resultSet.getDate("end_date").toLocalDate());
+                holiday.setIdEmployee((resultSet.getInt("id_employee")));
+                holidayList.add(holiday);
+            }
+
+        } catch (SQLException e1) {
+            e1.printStackTrace();
+        } finally {
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return holidayList;
+    }
 }

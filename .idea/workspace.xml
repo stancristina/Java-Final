@@ -11,19 +11,62 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/controller/HelloController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/model/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/model/Holiday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/model/Holiday.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Java-Final/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/java/application/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/java/application/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/java/application/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/java/application/model/ConnectionProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/java/application/model/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/java/application/model/Holiday.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/java/application/model/LoginDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/java/application/model/Provider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/java/application/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/java/application/repository/CRUDCustomRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/java/application/repository/impl/EmployeeRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/java/application/repository/impl/HolidayRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/java/application/repository/impl/UserRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/java/application/utils/JDBCUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/resources/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/resources/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/webapp/WEB-INF/jsp/hello.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/webapp/WEB-INF/jsp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/webapp/WEB-INF/jsp/loginprocess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/src/main/webapp/WEB-INF/jsp/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/target/classes/application/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/target/classes/application/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/target/classes/application/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/target/classes/application/model/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/target/classes/application/model/Holiday.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/target/classes/application/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/target/classes/application/repository/CRUDCustomRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/target/classes/application/repository/impl/EmployeeRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/target/classes/application/repository/impl/HolidayRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/target/classes/application/repository/impl/UserRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/target/classes/application/utils/JDBCUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/target/classes/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Final/target/classes/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/controller/EmpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/controller/EmpController.java" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/src/main/java/application/repository/impl/EmployeeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/repository/impl/EmployeeRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/repository/impl/HolidayRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/repository/impl/HolidayRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hello.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/employee.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/employee.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application/model/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/model/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application/model/Holiday.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/model/Holiday.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateemp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateemp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/viewemp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/viewemp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/controller/EmpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/controller/EmpController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application/repository/impl/EmployeeRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/repository/impl/EmployeeRepositoryImpl.class" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/target/classes/application/repository/impl/HolidayRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/repository/impl/HolidayRepositoryImpl.class" afterDir="false" />
 =======
       <change beforePath="$PROJECT_DIR$/proiect.iml" beforeDir="false" />
@@ -37,6 +80,8 @@
       <change beforePath="$PROJECT_DIR$/target/classes/application/repository/impl/UserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/repository/impl/UserRepositoryImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application/utils/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/utils/JDBCUtils.class" afterDir="false" />
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,6 +94,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Holiday Methods/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="128">
@@ -137,6 +183,12 @@
 <<<<<<< Updated upstream
             <state relative-caret-position="221">
               <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/application/repository/impl/HolidayRepositoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="142" column="92" selection-start-line="142" selection-start-column="92" selection-end-line="142" selection-end-column="92" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,15 +202,16 @@
       </file>
       <file pinned="false" current-in-tab="false">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/src/main/java/application/security/UserPrincipal.java">
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/application/model/Holiday.java">
+>>>>>>> Stashed changes
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            <state relative-caret-position="289">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding>
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
               </folding>
 =======
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Holiday Methods/holidayview.jsp">
@@ -174,6 +227,7 @@
 <<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/src/main/java/application/repository/impl/EmployeeRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="19">
               <caret line="148" column="16" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="16" />
 =======
@@ -207,6 +261,14 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#2552#2553#0" expanded="true" />
                 <element signature="e#2579#2580#0" expanded="true" />
+=======
+            <state relative-caret-position="163">
+              <caret line="228" column="70" lean-forward="true" selection-start-line="228" selection-start-column="14" selection-end-line="228" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#update#0;class#EmployeeRepositoryImpl#0" />
+                <element signature="method#delete#0;class#EmployeeRepositoryImpl#0" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
@@ -277,16 +339,16 @@
         <option value="$PROJECT_DIR$/src/main/java/application/model/Holiday.java" />
         <option value="$PROJECT_DIR$/src/main/java/application/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/application/repository/impl/UserRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateemp.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/application/repository/impl/HolidayRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/application/security/UserPrincipal.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/viewemp.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/application/model/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateemp.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/employee.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/viewemp.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/application/repository/impl/EmployeeRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/application/controller/EmpController.java" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/employee.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/application/controller/UserController.java" />
 <<<<<<< Updated upstream
@@ -306,6 +368,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Holiday Methods/holidayview.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Holiday Methods/holidaydelete.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Holiday Methods/index.jsp" />
+>>>>>>> Stashed changes
+=======
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/application/repository/impl/HolidayRepositoryImpl.java" />
 >>>>>>> Stashed changes
       </list>
     </option>
@@ -335,6 +402,7 @@
   </component>
 <<<<<<< Updated upstream
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< Updated upstream
     <option name="x" value="-8" />
     <option name="width" value="1144" />
     <option name="height" value="1038" />
@@ -343,6 +411,11 @@
     <option name="x" value="-8" />
     <option name="width" value="977" />
     <option name="height" value="1050" />
+>>>>>>> Stashed changes
+=======
+    <option name="x" value="-9" />
+    <option name="width" value="1145" />
+    <option name="height" value="1039" />
 >>>>>>> Stashed changes
   </component>
   <component name="ProjectView">
@@ -428,6 +501,7 @@
               <item name="proiect" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+<<<<<<< Updated upstream
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
@@ -475,6 +549,8 @@
               <item name="Java-Final" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> Stashed changes
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -498,16 +574,21 @@
               <item name="Java-Final" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java-Final" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< Updated upstream
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
               <item name="Holiday Methods" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Stashed changes
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -522,7 +603,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558967730642" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558987192808" />
+>>>>>>> Stashed changes
     <property name="last_opened_file_path" value="C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.15.jar!/" />
 =======
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558963939814" />
@@ -591,23 +676,33 @@
       <workItem from="1557145392084" duration="14387000" />
       <workItem from="1557818597787" duration="2233000" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <workItem from="1558635027855" duration="32783000" />
 =======
       <workItem from="1558635027855" duration="12986000" />
       <workItem from="1558886644484" duration="670000" />
       <workItem from="1558887503680" duration="14566000" />
 >>>>>>> Stashed changes
+=======
+      <workItem from="1558635027855" duration="39040000" />
+      <workItem from="1558982773996" duration="4697000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="60207000" />
+=======
+    <option name="totallyTimeSpent" value="71161000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< Updated upstream
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21677852" />
 =======
     <option name="totallyTimeSpent" value="55646000" />
@@ -617,6 +712,9 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41608876" />
+>>>>>>> Stashed changes
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26107383" />
 >>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
@@ -628,7 +726,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
 <<<<<<< Updated upstream
       <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28843337" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26793557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39824304" />
 =======
       <window_info anchor="bottom" id="Find" order="1" />
@@ -720,6 +818,7 @@
 >>>>>>> Stashed changes
   </component>
   <component name="editorHistoryManager">
+<<<<<<< Updated upstream
     <entry file="file://D:/Facultate/Anul2/Semestrul 2/PAO/IdeaProjects/JDBC/src/main/repository/impl/CompanyRepositoryImpl.java" />
     <entry file="file://D:/Facultate/Anul2/Semestrul 2/PAO/IdeaProjects/JDBC/src/main/model/Employee.java" />
     <entry file="file://D:/Facultate/Anul2/Semestrul 2/PAO/IdeaProjects/JDBC/src/main/utils/JDBCUtils.java" />
@@ -733,6 +832,46 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/../../Facultate/Anul2/Semestrul 2/PAO/IdeaProjects/JDBC/JDBC.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Facultate/Anul2/Semestrul 2/PAO/IdeaProjects/JDBC/src/main/JDBC.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Facultate/Anul2/Semestrul 2/PAO/IdeaProjects/JDBC/src/main/Application.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Facultate/Anul2/Semestrul 2/PAO/IdeaProjects/JDBC/src/main/repository/CRUDCustomRepository.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Facultate/Anul2/Semestrul 2/PAO/IdeaProjects/JDBC/src/main/repository/impl/CompanyRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Facultate/Anul2/Semestrul 2/PAO/IdeaProjects/JDBC/src/main/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Facultate/Anul2/Semestrul 2/PAO/IdeaProjects/JDBC/src/main/utils/JDBCUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Facultate/Anul2/Semestrul 2/PAO/IdeaProjects/JDBC/src/main/model/Holiday.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Facultate/Anul2/Semestrul 2/PAO/IdeaProjects/JDBC/src/main/model/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Facultate/Anul2/Semestrul 2/PAO/IdeaProjects/JDBC/src/main/model/User.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+>>>>>>> Stashed changes
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.13/tomcat-embed-core-9.0.13.jar!/org/apache/catalina/connector/CoyoteAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -757,6 +896,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/main/java/application/repository/impl/CompanyRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-527">
@@ -783,6 +923,10 @@
     <entry file="file://$PROJECT_DIR$/target/classes/application/controller/HelloController.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/repository/impl/CompanyRepositoryImpl.java" />
+    <entry file="file://$PROJECT_DIR$/target/classes/application/controller/HelloController.class" />
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/target/classes/application/controller/UserController.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -797,6 +941,7 @@
       </provider>
     </entry>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/proiect.iml">
       <provider selected="true" editor-type-id="text-editor" />
 =======
@@ -809,6 +954,8 @@
       </provider>
 >>>>>>> Stashed changes
     </entry>
+=======
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/src/main/java/application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -819,20 +966,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/main.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/model/Company.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/PreparedStatement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="144">
+          <caret line="235" column="9" selection-start-line="235" selection-start-column="9" selection-end-line="235" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/main/java/application/model/Company.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/PreparedStatement.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/application/model/Employee.java">
@@ -983,17 +1125,9 @@
         <state relative-caret-position="80">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
 >>>>>>> Stashed changes
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateemp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="374">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/controller/HelloController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hello.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1001,15 +1135,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/repository/CRUDCustomRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/repository/CRUDCustomRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/security/UserPrincipal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+        <state relative-caret-position="374">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+=======
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java-Final/src/main/resources/static/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/Java-Final/src/main/webapp/WEB-INF/jsp/loginprocess.jsp" />
+    <entry file="file://$PROJECT_DIR$/proiect.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="68">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
 =======
@@ -1037,30 +1226,83 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2552#2553#0" expanded="true" />
             <element signature="e#2579#2580#0" expanded="true" />
+=======
+        <state relative-caret-position="133">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/viewemp.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="65" lean-forward="true" selection-start-column="65" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#form#0;n#form#0;n#!!top" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
     </entry>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/main/java/application/repository/impl/HolidayRepositoryImpl.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/employee.jsp">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="34">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/controller/EmpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/security/UserPrincipal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/repository/impl/UserRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        <state relative-caret-position="1308">
+          <caret line="174" column="24" selection-start-line="174" selection-start-column="24" selection-end-line="174" selection-end-column="24" />
           <folding>
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#findAll#0;class#UserRepositoryImpl#0" />
+            <element signature="method#update#0;class#UserRepositoryImpl#0" />
+            <element signature="method#delete#0;class#UserRepositoryImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1068,61 +1310,40 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="94" selection-start-line="1" selection-start-column="4" selection-end-line="2" selection-end-column="94" />
+          <caret line="2" column="63" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateemp.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/viewemp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/controller/EmpController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="88" column="29" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/application/repository/impl/EmployeeRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="148" column="16" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="16" />
+        <state relative-caret-position="163">
+          <caret line="228" column="70" lean-forward="true" selection-start-line="228" selection-start-column="14" selection-end-line="228" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#update#0;class#EmployeeRepositoryImpl#0" />
+            <element signature="method#delete#0;class#EmployeeRepositoryImpl#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/employee.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/model/Holiday.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="289">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
-            <element signature="n#style#0;n#input#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/main/java/application/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-242">
@@ -1147,6 +1368,12 @@
 =======
         <state relative-caret-position="528">
           <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+>>>>>>> Stashed changes
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/repository/impl/HolidayRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="142" column="92" selection-start-line="142" selection-start-column="92" selection-end-line="142" selection-end-column="92" />
 >>>>>>> Stashed changes
           <folding>
             <element signature="imports" expanded="true" />

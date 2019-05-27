@@ -170,4 +170,79 @@ public class EmployeeRepositoryImpl implements CRUDCustomRepository<Employee> {
             }
         }
     }
+
+    public List<Employee> findByNameAndCreatedBy(String firstName, int createdBy) {
+        List<Employee> employeeList = new ArrayList<>();
+        Connection connection = null;
+
+        String selectEmployeeSql = "SELECT * FROM EMPLOYEE WHERE first_name like ? AND created_by = ?";
+        connection = JDBCUtils.getDBConnection();
+
+        try {
+            PreparedStatement ps = connection.prepareStatement(selectEmployeeSql);
+            firstName = "%" + firstName + "%";
+            ps.setString(1, firstName);
+            ps.setInt(2, createdBy);
+            ResultSet resultSet = ps.executeQuery();
+            while(resultSet.next()) {
+                Employee employee = new Employee();
+                employee.setId(resultSet.getInt("id"));
+                employee.setFirstName(resultSet.getString("first_name"));
+                employee.setLastName(resultSet.getString("last_name"));
+                employee.setCnp(resultSet.getLong("cnp"));
+                employee.setCreatedBy(resultSet.getInt("created_by"));
+                employeeList.add(employee);
+            }
+
+        } catch (SQLException e1) {
+            e1.printStackTrace();
+        } finally {
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return employeeList;
+    }
+
+    public List<Employee> findByCnpAndCreatedBy(Long cnp, int createdBy) {
+        List<Employee> employeeList = new ArrayList<>();
+        Connection connection = null;
+
+        String selectEmployeeSql = "SELECT * FROM EMPLOYEE WHERE cnp = ? AND created_by = ?";
+        connection = JDBCUtils.getDBConnection();
+
+        try {
+            PreparedStatement ps = connection.prepareStatement(selectEmployeeSql);
+            ps.setLong(1, cnp);
+            ps.setInt(2, createdBy);
+            ResultSet resultSet = ps.executeQuery();
+            while(resultSet.next()) {
+                Employee employee = new Employee();
+                employee.setId(resultSet.getInt("id"));
+                employee.setFirstName(resultSet.getString("first_name"));
+                employee.setLastName(resultSet.getString("last_name"));
+                employee.setCnp(resultSet.getLong("cnp"));
+                employee.setCreatedBy(resultSet.getInt("created_by"));
+                employeeList.add(employee);
+            }
+
+        } catch (SQLException e1) {
+            e1.printStackTrace();
+        } finally {
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return employeeList;
+    }
+
+
 }

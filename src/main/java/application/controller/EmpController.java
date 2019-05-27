@@ -9,7 +9,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -26,7 +28,7 @@ public class EmpController {
     }
     model.addAttribute("action", "save");
     model.addAttribute("command", "Create Employee");
-    model.addAttribute("oldEmployee", new Employee("First Name...", "Last Name...", 123123123L));
+    model.addAttribute("oldEmployee", new Employee("First Name...", "Last Name...", 0L));
     return "employee";
     }
 
@@ -43,16 +45,31 @@ public class EmpController {
         return "redirect:/viewemp";
     }
 
-    @GetMapping("/viewemp")
-    public String viewemp(Model model) {
+    @GetMapping(value={"/viewemp"})
+    public String viewemp(Model model, String filter ) {
         if(UserPrincipal.getInstance().getLoggedUser() == null) {
             return "redirect:/user/login";
         }
+        List<Employee> employeeList = null;
+        if(filter == null || filter.isEmpty()) {
+            employeeList = employeeRepository.findAll();
+            employeeList = employeeList.stream()
+                    .filter(emp -> emp.getCreatedBy() == UserPrincipal.getInstance().getLoggedUser().getId())
+                    .collect(Collectors.toList());
+        } else {
+            employeeList = new ArrayList<>();
+            employeeList.addAll(employeeRepository.findByNameAndCreatedBy(filter,
+                    UserPrincipal.getInstance().getLoggedUser().getId()));
 
-        List<Employee> employeeList = employeeRepository.findAll();
-        employeeList = employeeList.stream()
-                .filter(emp -> emp.getCreatedBy() == UserPrincipal.getInstance().getLoggedUser().getId())
-                .collect(Collectors.toList());
+            try {
+                Long cnpLong = Long.parseLong(filter);
+                employeeList.addAll(employeeRepository.findByCnpAndCreatedBy(cnpLong,
+                        UserPrincipal.getInstance().getLoggedUser().getId()));
+            } catch (Exception e) {
+                System.out.println("Filtrul nu poate fi cnp");
+            }
+
+        }
         model.addAttribute("employeeList", employeeList);
         return "viewemp";
     }
@@ -89,5 +106,6 @@ public class EmpController {
         employeeRepository.delete(id);
         return "redirect:/viewemp";
     }
+
 
 }
