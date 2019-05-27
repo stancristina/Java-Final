@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -11,7 +12,7 @@
         <input type="hidden" name="id" value="${employee.id}"/>
         LastName:  	<input type="text" name="lastname" value="${employee.lastName}" />
 
-        FistName: 	<input type="text" name="firstName" value="${employee.firstName}" />
+        FirstName: 	<input type="text" name="firstName" value="${employee.firstName}" />
 
         Cnp:	<input type="text" name="Cnp" value="${employee.Cnp}" />
 

@@ -18,7 +18,7 @@ public class JDBCUtils {
             e.printStackTrace();
         }
         try {
-            dbConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/new_schema?user=root&password=root");
+            dbConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/new_schema?user=root&password=root&&useSSL=false");
             return dbConnection;
 
         } catch (SQLException e) {
