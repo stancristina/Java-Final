@@ -53,7 +53,7 @@ public class Holiday {
         return "Holiday{" +
                 "startDate=" + startDate +
                 ", endDate=" + endDate +
-                ", employee=" + idEmployee +
+                ", employee.jsp=" + idEmployee +
                 '}';
     }
 

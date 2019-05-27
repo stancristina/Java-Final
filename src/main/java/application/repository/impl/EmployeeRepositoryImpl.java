@@ -3,6 +3,7 @@ package application.repository.impl;
 import application.model.Employee;
 import application.repository.CRUDCustomRepository;
 import application.utils.JDBCUtils;
+import org.springframework.stereotype.Repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -11,6 +12,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class EmployeeRepositoryImpl implements CRUDCustomRepository<Employee> {
 
     @Override
@@ -80,7 +82,37 @@ public class EmployeeRepositoryImpl implements CRUDCustomRepository<Employee> {
 
     @Override
     public Employee findById(Integer id) {
-        return null;
+        Employee employee = null;
+        Connection connection = null;
+
+        String selectEmployeeSql = "SELECT * FROM EMPLOYEE WHERE id = ?";
+        connection = JDBCUtils.getDBConnection();
+
+        try {
+            PreparedStatement ps = connection.prepareStatement(selectEmployeeSql);
+            ps.setInt(1, id);
+            ResultSet resultSet = ps.executeQuery();
+            while(resultSet.next()) {
+                employee = new Employee();
+                employee.setId(resultSet.getInt("id"));
+                employee.setFirstName(resultSet.getString("first_name"));
+                employee.setLastName(resultSet.getString("last_name"));
+                employee.setCnp(resultSet.getLong("cnp"));
+                employee.setCreatedBy(resultSet.getInt("created_by"));
+            }
+
+        } catch (SQLException e1) {
+            e1.printStackTrace();
+        } finally {
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return employee;
     }
 
     @Override

@@ -15,6 +15,12 @@ public class Employee {
     public Employee() {
     }
 
+    public Employee(String firstName, String lastName, Long cnp) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.cnp = cnp;
+    }
+
     public int getCreatedBy() {
         return createdBy;
     }

@@ -3,11 +3,13 @@ package application.repository.impl;
 import application.model.Holiday;
 import application.repository.CRUDCustomRepository;
 import application.utils.JDBCUtils;
+import org.springframework.stereotype.Repository;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class HolidayRepositoryImpl implements CRUDCustomRepository<Holiday> {
 
     @Override
